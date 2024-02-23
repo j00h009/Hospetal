@@ -38,13 +38,12 @@ li,
 p,
 h3 {
   color: var(--text-color);
-  font-family: NotoSans;
 }
 
 .Container-about {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: center !important;
   align-items: center;
 }
 
