@@ -139,14 +139,14 @@ function Main() {
             <Route index element={<Disease2 />} />
             <Route path=":id" element={<Cat />} />
           </Route>
+          <Route path="/mbti" element={<Home />} />
+          <Route path="petBTI" element={<Options />} />
+          <Route path="petBTI2" element={<Options2 />} />
+          <Route path="result/:petbtiName" element={<Petbti />} />
+          <Route path="result2/:petbtiName" element={<Petbti2 />} />
+          <Route path="/notFoundCat" element={<NotFoundCat />} />
+          <Route path="/notFoundDog" element={<NotFoundDog />} />
         </Route>
-        <Route path="/mbti" element={<Home />} />
-        <Route path="petBTI" element={<Options />} />
-        <Route path="petBTI2" element={<Options2 />} />
-        <Route path="result/:petbtiName" element={<Petbti />} />
-        <Route path="result2/:petbtiName" element={<Petbti2 />} />
-        <Route path="/notFoundCat" element={<NotFoundCat />} />
-        <Route path="/notFoundDog" element={<NotFoundDog />} />
       </Routes>
       {showSpinner && (
         <div>
